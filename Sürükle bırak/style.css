@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .empty {
+    width: 150px;
+    height: 150px;
+    border: solid 3px #333;
+    margin: 10px;
+    background-color: #fff;
+  } 
+  
+  .fill {
+    background-image: url(seyahat.webp);
+    background-position: center;
+    background-size: cover;
+    width: 144px;
+    height: 144px;
+    cursor: pointer;
+  }
+  
+  .hold {
+    border: solid 5px #eee;
+  }
+  
+  .hover {
+    background-color: #333;
+    border-color: #fff;
+  }
+  
+  @media (max-width: 800px) {
+    body {
+      flex-direction: column;
+    }
+  }
